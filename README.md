@@ -17,7 +17,7 @@ Git 企业开发者教程是由LEANSOFT团队编写并开源提供给社区的�
 
 ### 1. 基础篇
 
-* 为什么要使用版本控制系统
+* [为什么要使用版本控制系统](basic/01-what-is-scm/idnex.md)
 * Git 分布式版本控制系统的优势
 * Git 安装和设置
 * 初始化Git存储库(Repo)
@@ -60,6 +60,12 @@ Git 企业开发者教程是由LEANSOFT团队编写并开源提供给社区的�
 * 传统分支模式与特性分支模式的比较
 * 特性分支+拉取请求+质量门模式
 * 混用分叉(fork)与特性分支(feature branch)
+
+## Git常见问题
+
+* [解决Git在Windows上使用http/https无法认证的问题](faqs/01-git-on-windows-issues/index.md)
+* [如何修改 gitconfig 和常用配置](faqs/02-gitconfig/index.md)
+* [如何定位Git执行过程中的问题](faqs/03-debugging-git/index.md)
 
 ## 参考
 

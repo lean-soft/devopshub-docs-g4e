@@ -1,20 +1,35 @@
-#简介
-TODO: 简要介绍你的项目。通过此节说明此项目的目标或动机。
+# Git 企业开发者教程
 
-#入门
-TODO: 指导用户获取你的代码并在其自己的系统上运行该代码。在本节中，可讨论:
-1.	安装过程
-2.	软件依赖项
-3.	最新发布
-4.	API 参考
+![](images/git.png)
 
-#生成与测试
-TODO: 说明并展示如何生成代码和运行测试。
+Git 企业开发者教程是由LEANSOFT团队编写并开源提供给社区的企业级Git配置管理教程，教程本身也使用Git进行版本管理并使用我公司内部 Team Foundation Server 作为主要版本Git库，并同步在 GitHub 上开源给社区。
 
-#投稿
-TODO: 说明其他用户和开发人员可如何帮助改善代码。
+本套教程主版本发布于 DevOps 文档中心 https://docs.devopshub.cn/mdwiki/#!docs/g4e/index.md
 
-如果想要深入了解如何创建优秀的自述文件，请参阅以下[指南] (https://www.visualstudio.com/zh-cn/docs/git/create-a-readme)。还可从以下自述文件中寻求灵感:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+并在一下地址同步更新
+
+* DevOps 博客 http://devopshub.cn/
+* 博客园 http://www.cnblogs.com/ups216/
+
+## 参考
+
+如果希望了解使用Git管理和发布文档的机制，请访问以下链接：
+
+* [Markdown/reST 文档发布流水线](http://devopshub.cn/2017/01/06/markdown-rest-release-pipeline/)
+* [GitHub + VSTS 开源代码双向同步](http://devopshub.cn/2016/05/09/vsts-github-open-source-code-flow/)
+
+## 反馈
+
+如果您在使用此文档的过程中遇到任何问题，请扫描以下二维码关注我公司公众号，并通过留言的方式与我们取得联系，我们会在第一时间回复您的问题。
+
+![](images/devopshub-leansoft-small.png)
+
+## 版权
+
+本文档内容由LEANSOFT提供并拥有版权，访问者可将本文档提供的内容或服务用于个人学习、研究或欣赏,以及其他非商业性或非盈利性用途,但同时应遵守著作权法及其他相关法律的规定,不得侵犯本文档及相关权利人的合法权利。除此以外,将本文档任何内容或服务用于其他用途时,须征得LEANSOFT的书面许可。
+
+版权所有(c)英捷创软科技(北京)有限公司 LEANSOFT
+
+作者:   **LEANSOFT**
+
+主页:   [DevOps 文档中心](http://docs.devopshub.cn)

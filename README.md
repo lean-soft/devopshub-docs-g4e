@@ -2,7 +2,7 @@
 
 ![](images/git.png)
 
-Git 企业开发者教程是由LEANSOFT团队编写并开源提供给社区的企业级Git配置管理教程，教程本身也使用Git进行版本管理并使用我公司内部 Team Foundation Server 作为主要版本Git库，并同步在 GitHub 上开源给社区。
+Git 企业开发者教程是由LEANSOFT团队编写并开源提供给社区的企业级Git配置管理教程，教程本身也使用Git进行版本管理并使用我公司内部 Team Foundation Server 作为主要版本Git库，通过TFS流水线自动发布于 DevOps 文档中心 和 GitHub。
 
 本套教程主版本发布于 DevOps 文档中心 https://docs.devopshub.cn/mdwiki/#!docs/g4e/index.md
 

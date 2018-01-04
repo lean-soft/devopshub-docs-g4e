@@ -9,7 +9,7 @@ Git是当前最棒的版本控制系统，已经迅速成为了事实的业界�
 * https://insights.stackoverflow.com/survey/2015
 * https://insights.stackoverflow.com/survey/2017
 
-Git和其他版本管理系统最大的区别在于它是一种分布式的[版本管理系统（DVCS）](https://en.wikipedia.org/wiki/Distributed_version_control)，这主要是针对类似SVN, TFVC或者ClearCase这种集中式[版本管理系统（CVCS）](https://en.wikipedia.org/wiki/Concurrent_Versions_System)而言的。简单来说，每个Git存储库都是一份完整的代码，历史记录以及分支的集合，而CVCS系统只在服务器上保存所有这些信息，而在本地一般只有当前版本和至多一个历史版本。这种能力赋予了开发人员非常灵活的工作方式，因为分支/查找历史/比较/合并等操作都不需要通过服务器进行，就可以更为轻松的脱机工作或者远程工作；同时在连接到网络的时候又可以和其他人共享代码。
+Git和其他版本管理系统最大的区别在于它是一种[分布式的版本管理系统（DVCS）](https://en.wikipedia.org/wiki/Distributed_version_control)，这主要是针对类似SVN, TFVC或者ClearCase这种[集中式版本管理系统（CVCS）](https://en.wikipedia.org/wiki/Concurrent_Versions_System)而言的。简单来说，每个Git存储库都是一份完整的代码，历史记录以及分支的集合，而CVCS系统只在服务器上保存所有这些信息，而在本地一般只有当前版本和至多一个历史版本。这种能力赋予了开发人员非常灵活的工作方式，因为分支/查找历史/比较/合并等操作都不需要通过服务器进行，就可以更为轻松的脱机工作或者远程工作；同时在连接到网络的时候又可以和其他人共享代码。
 
 Git 的灵活性和用户接受度使之成为任何团队的首选。 现在，许多开发者和大学毕业生都已知道如何使用 Git。Git 的用户社区中已有许多资源可用来培训开发者，同时 Git 的用户接受度使得用户可以在需要时轻松获得帮助。 几乎所有的开发工具和技术栈都支持 Git，Git 命令行工具可以在所有主要操作系统上运行。对于企业来说，如果不使用Git会让那些新入职的开发者感到非常不适应，并且大幅度降低他们的开发效率，我曾将见到过开发者因为应聘企业使用老旧的开发工具而拒绝接受企业的Offer。
 

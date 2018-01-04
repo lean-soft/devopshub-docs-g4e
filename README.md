@@ -18,7 +18,7 @@ Git 企业开发者教程是由LEANSOFT团队编写并开源提供给社区的�
 ### 1. 基础篇
 
 * [为什么要使用版本控制系统](basic/01-what-is-scm/index.md)
-* Git 分布式版本控制系统的优势
+* [Git 分布式版本控制系统的优势](basic/02-git-intro/index.md)
 * Git 安装和设置
 * 初始化Git存储库(Repo)
 * 起步 1 – 创建分支和保存代码

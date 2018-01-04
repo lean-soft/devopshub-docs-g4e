@@ -11,6 +11,56 @@ Git 企业开发者教程是由LEANSOFT团队编写并开源提供给社区的�
 * DevOps 博客 http://devopshub.cn/
 * 博客园 http://www.cnblogs.com/ups216/
 
+## 目录
+
+* [前言](index.md)
+
+### 1. 基础篇
+
+* 为什么要使用版本控制系统
+* Git 分布式版本控制系统的优势
+* Git 安装和设置
+* 初始化Git存储库(Repo)
+* 起步 1 – 创建分支和保存代码
+* 起步 2 – 了解Git历史记录
+* 起步 3 – 拉取请求 Pull Request 工作机制
+
+### 2. 进阶篇
+
+* 使用已有Git Repo提交和共享代码
+* 创建新的Git Repo
+* 理解Git提交(commit)工作机制
+* 使用Git分支(branch)进行工作
+* 使用Git推送(push)共享代码
+* 使用Git获取/拉取(fetch/pull)更新代码
+* 使用拉取请求(Pull Request)进行代码检视
+* 使用Git变基(rebase)更新代码
+* 使用Git提交拣选(cherry pick)功能在分之间复制改动
+* 解决合并冲突(merge conflict)
+* 撤销改动
+* 忽略文件
+* 使用Git历史记录比较文件，分支或者获取历史版本
+
+### 3. Git企业开发者篇
+
+* 在VSTS/TFS上创建Git仓库
+* 迁移已有代码库到Git仓库，如：SVN，TFVC
+* Git服务器的权限管理
+* Git分库规则
+* 大规模团队的Git配置管理流程
+* 使用Git支持敏捷/瀑布式开发流程
+* Git与持续交付（配置持续集成和持续部署）
+
+### 4. Git分支策略篇
+
+* Git 分支策略设计的原则，调试单元，部署单元，测试单元
+* Git 与团队结构，产品/项目发布特性，产品生命周期
+* Git 拉取请求与可靠持续交付
+* Git 分叉(Fork)与分支(Branch)的区别
+* 传统分支模式与特性分支模式的比较
+* 特性分支+拉取请求+质量门模式
+* 混用分叉(fork)与特性分支(feature branch)
+
 ## 参考
 
 如果希望了解使用Git管理和发布文档的机制，请访问以下链接：

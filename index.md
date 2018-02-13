@@ -26,7 +26,10 @@
 
 * [为什么要使用版本控制系统](basic/01-what-is-scm/index.md)
 * [Git 分布式版本控制系统的优势](basic/02-git-intro/index.md)
-* Git 安装和设置
+* [Git 安装和设置](basic/03-git-install/index.md)
+* [了解Git存储库](basic/04-git-repo/index.md)
+* [创建分支保存代码](basic/05-git-branch/index.md)
+* [了解Git历史记录](basic/06-git-history/index.md)
 * 初始化Git存储库(Repo)
 * 起步 1 – 创建分支和保存代码
 * 起步 2 – 了解Git历史记录

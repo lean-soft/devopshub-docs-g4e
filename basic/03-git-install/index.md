@@ -319,7 +319,7 @@ VSTS提供5人以下团队的免费账号，不限制项目和Git私有存储库
 
  
 
-<http://cmder.net/>* *
+<http://cmder.net/>
 
  
 

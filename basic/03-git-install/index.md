@@ -122,7 +122,7 @@ git config --global credential.{你的TFS服务器地址}.authority Basic 
 TortoiseGit 
 
  
-
+![](images/tortoiseloge.png)
  
 
 这是和大家熟悉的TortoiseSVN一脉相承的一款图形化Git工具，也就是大家常说的“小乌龟”。应该说，小乌龟是最贴近于Windows使用习惯的一款git工具，因为它提供了非常完善的文件管理器集成，允许你直接通过文件管理器完成绝大多数git操作，非常直观，对于不习惯使用命令行的开发人员来说非常方便。 
@@ -133,7 +133,7 @@ TortoiseGit 
 
  
 
- 
+![](images/tortoiseloge01.png)
 
  
 
@@ -164,29 +164,29 @@ Studio除了提供微软技术栈的SDK支持还提供了大量开源技术栈�
 NodeJS, JavaScript和TypeScript等。 
 
  
-
+![](images/vs01.png)
  
 
 另外，除了对Windows上的软件提供完善的支持，也提供了跨平台的开发能力，比如：.Net
 Core, Linux C++等。 
 
  
-
+![](images/vs02.png)
  
 
 安装完成后，我们即可通过“团队资源管理器”连接到VSTS，TFS或者GitHub克隆代码，开始日常Git操作。 
 
  
-
+![](images/vs03.png)
  
 
 历史视图 
 
- 
+![](images/history.png)
 
 比较视图 
 
- 
+![](images/compare.png)
 
 免费下载地址： 
 
@@ -210,7 +210,7 @@ vscode中通过插件的方式提供了大量的git工具，包括：git blame, 
 diff等非常实用强大的工具帮助你解决很多日常使用难题。 
 
  
-
+![](images/vscode.png)
  
 
 下载地址： 
@@ -248,15 +248,15 @@ VSTS提供5人以下团队的免费账号，不限制项目和Git私有存储库
 
 第一步：点击 免费试用 
 
- 
+![](images/usefirst.png)
 
 第二步：使用你的Live账号登陆，如果没有可以免费注册 
 
- 
+![](images/usesecond.png)
 
 第三步：输入你自己的账号别名，并注意选择 East Asia （中国香港）节点 
 
- 
+![](images/usethird.png)
 
 *注册完成后，我们即可通过 VSTS
 示例项目生成器自动创建项目并导入示例代码，同时也会创建工作项，看板，迭代计划，测试计划，自动化构建等内容。 *
@@ -266,17 +266,17 @@ VSTS提供5人以下团队的免费账号，不限制项目和Git私有存储库
 第一步：登录https://vstsdemogenerator.azurewebsites.net/
 并输入你在上面注册的VSTS账号，如果需要更为详细的指导，请扫描以下二维码 
 
- 
+![](images/start.png)
 
 第二步：选择示例项目套件，在我们这套教程中使用PartsUnlimited示例代码 
 
- 
+![](images/create.png)
 
 第三步：项目创建成功后即可进入自己的VSTS账号进行操作了，具体操作指导请扫描以下图中二维码 
 
  
 
- 
+![](images/learn.png)
 
  
 
@@ -313,7 +313,7 @@ VSTS提供5人以下团队的免费账号，不限制项目和Git私有存储库
 -   颜色显示 
 
  
-
+![](images/cmder.png)
  
 
 使用git不能避免命令行，有一款好用的命令行工具会让你事半功倍，下载地址如下，这是个绿色软件，直接解压缩即可使用。 

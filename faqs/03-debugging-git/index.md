@@ -13,5 +13,5 @@
 使用PowerShell输入以上命令后，Git会非常详细的输出所有的操作的细节，帮助你定位问题。 
 
  
-
+![](images/git-trace-issue.png)
  

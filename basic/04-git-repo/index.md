@@ -13,13 +13,13 @@ Git
 当然，开发人员也可以不通过中心存储库共享代码，但是这种做法在企业中是不推荐的，虽然在GitHub上这基本上是普遍的工作方式，但是这种工作方式并不适合与企业开发。与开源软件不同的是，大多数企业开发都是多人协作完成同一个项目，而开源代码的开发则更需要每个人具备独立的版本根据自己的需要进行定制。 
 
  
-
+![](images/demo.jpg)
  
 
 ##Git存储库的基本结构 
 
  
-
+![](images/framework.png)
  
 
 *注：在任何的操作系统中，使用.开头的目录都会被默认隐藏掉，所以要看这些文件需要打开隐藏文件显示和扩展名显示才能看到上面的视图。 *
@@ -91,7 +91,7 @@ Files\\Git\\mingw64\\etc\\gitconfig）。如果要直接对这个配置进行编
 git config --edit --system  
 
  
-
+![](images/sys-conf.png)
  
 
 *注：编辑系统级配置的命令行窗口需要提升权限运行，否则无法保存。 *
@@ -109,7 +109,7 @@ C:\\Users\\{你的用户名\\.gitconfig）。如果要直接对这个配置进�
 
 git config --edit --global 
 
- 
+![](images/user-conf.png)
 
 *注：你会注意到我们在Git安装配置那一章中所做的配置实际上就是在修改这个文件。 *
 
@@ -127,7 +127,7 @@ Repo
 git config --edit  
 
  
-
+![](images/repo-conf.png)
  
 
 以上我们提到的.gitattribute .gitconfig
@@ -157,7 +157,7 @@ git config --edit  
 \>\>\> git init 
 
  
-
+![](images/create-repo.png)
  
 
 **克隆存储库** 
@@ -178,7 +178,7 @@ Credential Manager存储，如果没有则会弹出登陆对话框。类似以�
 找到存储库的url地址 
 
  
-
+![](images/clone-repo.png)
  
 
 复制这个地址，我们就可以进行后续的 clone 操作了。 
@@ -195,13 +195,13 @@ Credential Manager存储，如果没有则会弹出登陆对话框。类似以�
 
 第一次操作一个陌生的远程存储库会需要你输入用户名和密码 
 
- 
+![](images/username-pwd.png)
 
 输入正确的用户名和密码后，克隆会开始，完成以后你就可以开始操作本地git存储库了。 
 
  
 
- 
+![](images/user-pwd01.png)
 
  
 

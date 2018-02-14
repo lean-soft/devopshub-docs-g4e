@@ -10,7 +10,7 @@ Fatal: Authentication failed for …  
 
  
 
- 
+![](images/failed-view.png)
 
  
 
@@ -31,7 +31,7 @@ Fatal: Authentication failed for …  
 安装（至少2.15版本以上），并且在安装的时候配置了以下选项： 
 
  
-
+![](images/git-setup.png)
  
 
 注：你还需要 .NET Framework 4.5.1或以上版本才能正常使用。 
@@ -73,7 +73,8 @@ Fatal: Authentication failed for …  
  
 
  
-
+![](images/user-pwd.png)
+![](images/user-pwd01.png)
  
 
  
@@ -82,7 +83,7 @@ Fatal: Authentication failed for …  
 
  
 
- 
+![](images/user-pwd-windows.png)
 
  
 
@@ -92,28 +93,28 @@ ID。完成之后，你的身份信息会被存放在Windows凭据管理器，�
 (Person Access Token)的令牌。 
 
  
-
+![](images/AAD.png)
  
 
 如果要查看这个令牌，可以通过当前用户的菜单中选择 Security进入 Personal Access
 Token的配置页面进行查看 
 
  
-
+![](images/token.png)
  
 
 你会主要到这个PAT只对 Code (read and write) 和 Packing
 (read)两项内容进行了授权，这是为了确保最小安全性配置。 
 
  
-
+![](images/pat-conf.png)
  
 
 进入Windows凭据管理器管理器，你就可以看到这个凭据已经被保存。 
 
  
 
- 
+![](images/credential-save.png)
 
  
 
@@ -153,7 +154,7 @@ key pair。 
 ssh-keygen -C "密钥注释" 
 
  
-
+![](images/ssh-keygen.png)
  
 
 注意：以上我使用了所有参数的默认值，特别是passphrase中也使用了空密码，这主要是为了方便在操作存储库的时候不用一直输入密码。 
@@ -164,7 +165,7 @@ ssh-keygen -C "密钥注释" 
 c:\\users\\{当前用户}\\.ssh目录中，如下图： 
 
  
-
+![](images/key-view.png)
  
 
 ssh key pair
@@ -173,14 +174,16 @@ KEY列表中，确保VSTS/TFS服务器可以识别 
 
  
 
- 
+![](images/key-conf01.png)
+![](images/key-conf02.png)
+![](images/key-conf03.png)
 
  
 
 然后就可以通过ssh url来操作git存储库了，首先获取ssh url如下图 
 
  
-
+![](images/key-conf03.png)
  
 
 然后使用 git clone命令克隆代码 
@@ -190,7 +193,7 @@ KEY列表中，确保VSTS/TFS服务器可以识别 
 \>\>\> git clone {ssh url} 
 
  
-
+![](images/git-clone.png)
  
 
 *注：如果使用的是自己搭建的TFS服务器，还需要确保服务器的22端口已经正确打开 *

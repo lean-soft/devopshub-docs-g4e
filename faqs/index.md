@@ -9,3 +9,4 @@
 * [解决Git在Windows上使用http/https无法认证的问题](01-git-on-windows-issues/index.md)
 * [如何修改 gitconfig 和常用配置](02-gitconfig/index.md)
 * [如何定位Git执行过程中的问题](03-debugging-git/index.md)
+* [解决Git在Windows上的中文乱码问题](04-git-language-windows/index.md)

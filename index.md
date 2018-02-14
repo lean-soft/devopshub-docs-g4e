@@ -84,7 +84,7 @@ Git起源于开源软件Linux的开发过程，因此在开源社区中广泛流
 * [解决Git在Windows上使用http/https无法认证的问题](faqs/01-git-on-windows-issues/index.md)
 * [如何修改 gitconfig 和常用配置](faqs/02-gitconfig/index.md)
 * [如何定位Git执行过程中的问题](faqs/03-debugging-git/index.md)
-
+* [解决Git在Windows上的中文乱码问题](faqs/04-git-language-windows/index.md)
 
 在这个教程中，我们将使用 Visual Studio Team Services (VSTS) /Team Foundation Server(TFS) 作为我们的Git服务器。为什么不采用GitHub？这一定是你在想的问题！因为这一系列文章的目标用户是企业开发者，而VSTS提供了企业开发者所需要的全生命周期管理能力，我们在4个篇章逐渐深入的过程中你就会体会到这种端到端工具所带来的好处。我一直都认为，一个企业的软件交付效率中最重要的环节永远的是编码过程，因为这才是软件交付的核心，没有任何的管理实践可以替代开发人员自由自在的编写代码所带来的效率提升。当然，如果你不使用VSTS/TFS也完全不必担心，这个教程中的大多数内容同时适用于任何Git服务器，包括GitHub, GitLab, BitBucket等大家常用的环境。
 

@@ -78,7 +78,7 @@ Windows可能通过不同的命令行工具执行，所以我们需要针对不�
 
  
 
-1.  针对 Git Bash 的环境变量，修改 C:\\Program Files\\Git\\etc\\profile  
+1.针对 Git Bash 的环境变量，修改 C:\\Program Files\\Git\\etc\\profile  
 
  
 
@@ -90,7 +90,7 @@ export LESSCHARSET=utf-8 
 
  
 
-2.  针对Windows的其他命令行工具，如：Powershell, cmd和cmder 
+2.针对Windows的其他命令行工具，如：Powershell, cmd和cmder 
 
  
 

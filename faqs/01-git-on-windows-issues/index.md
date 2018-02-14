@@ -18,7 +18,7 @@ Fatal: Authentication failed for …  
 
  
 
-方式1 - 强制Git Crdential Manager for Windows使用Basic 认证方式 
+##方式1 - 强制Git Crdential Manager for Windows使用Basic 认证方式 
 
  
 
@@ -118,7 +118,7 @@ Token的配置页面进行查看 
 
  
 
-Git Credential Manager for Windows 的工作机制 
+###Git Credential Manager for Windows 的工作机制 
 
  
 
@@ -137,7 +137,7 @@ Failed的错误并退出，这是因为在这个场景下无法直接使用NTLM�
 
  
 
-方法 2 - 使用SSH Key的方式进行认证 
+##方法 2 - 使用SSH Key的方式进行认证 
 
  
 
@@ -200,7 +200,7 @@ KEY列表中，确保VSTS/TFS服务器可以识别 
 
  
 
-小结 
+##小结 
 
  
 

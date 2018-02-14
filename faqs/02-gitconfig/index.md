@@ -5,7 +5,7 @@ Gitconfig
 
  
 
-gitconfig的三级配置系统 
+##gitconfig的三级配置系统 
 
  
 
@@ -34,7 +34,7 @@ Files\\Git\\mingw64\\etc\\gitconfig）。如果要直接对这个配置进行编
 git config --edit --system  
 
  
-
+![](images/edit-sys.png)
  
 
 *注：编辑系统级配置的命令行窗口需要提升权限运行，否则无法保存。 *
@@ -48,7 +48,7 @@ C:\\Users\\{你的用户名\\.gitconfig）。如果要直接对这个配置进�
 
 git config --edit --global 
 
- 
+![](images/edit-global.png)
 
 *注：你会注意到我们在Git安装配置那一章中所做的配置实际上就是在修改这个文件。 *
 
@@ -62,7 +62,7 @@ Repo
 git config --edit  
 
  
-
+![](images/edit-repo.png)
  
 
 以上我们提到的.gitattribute .gitconfig
@@ -72,7 +72,7 @@ git config --edit  
 
  
 
-用户名和邮件地址 
+##用户名和邮件地址 
 
  
 
@@ -89,7 +89,7 @@ git config --global user.email {你的邮件地址} 
 
  
 
-默认编辑器 
+##默认编辑器 
 
  
 
@@ -106,7 +106,7 @@ Code，要确保以上配置工作，你要保证vscode安装过程中选择以�
 
  
 
- 
+![](images/edit-vscode.png)
 
  
 
@@ -140,7 +140,7 @@ git config --global commit.template c:\\users\\用户名\\.gitmessage.txt 
 具体使用的效果如下（结合前面的配置使用vscode作为编辑器的效果） 
 
  
-
+![](images/vscode-view.png)
  
 
 排除文件 
@@ -165,7 +165,7 @@ git config --global core.excludesfile c:\\users\\用户名\\.gitignore_global 
 
  
 
-外部冲突合并和比较工具 
+##外部冲突合并和比较工具 
 
  
 
@@ -192,7 +192,7 @@ git config --edit --global 
 如下图 
 
  
-
+![](images/diff-vscode.png)
  
 
 配置完成后我们就可以通过git difftool命令启动比较，具体格式 
@@ -202,7 +202,7 @@ git config --edit --global 
 git difftool \<commit\> \<commit\> 
 
  
-
+![](images/difftool.png)
  
 
 另外，当文件出现冲突时，我们也可以通过 Visual Studio Code
@@ -210,7 +210,7 @@ git difftool \<commit\> \<commit\> 
 采用传入的更改 \| 保留双方更改 \| 比较变更** 
 
  
-
+![](images/diff-view.png)
  
 
 我相信很多刚刚接触git的同学非常害怕碰到这个带有一堆\<\<\<\<\<的冲突信息，会不知所措，有个这个可视化的合并工具以后一切就变得非常简单而自然了。 

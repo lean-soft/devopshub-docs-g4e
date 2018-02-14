@@ -15,13 +15,13 @@ Code，Eclipse等IDE里面的log显示。出现乱码的场景包括：中文路
 路径和中文文件名，执行 git status 看到如下结果 
 
  
-
+![](images/git-status.png)
  
 
 使用git log时出现如下结果 
 
  
-
+![](images/git-log.png)
  
 
 造成乱码的原因如下 
@@ -42,7 +42,7 @@ Code，Eclipse等IDE里面的log显示。出现乱码的场景包括：中文路
 
  
 
-修改 Gitconfig 
+##修改 Gitconfig 
 
  
 
@@ -69,7 +69,7 @@ Code，Eclipse等IDE里面的log显示。出现乱码的场景包括：中文路
 
  
 
-修改环境变量 
+##修改环境变量 
 
  
 
@@ -90,30 +90,30 @@ export LESSCHARSET=utf-8 
 
  
 
-1.  针对Windows的其他命令行工具，如：Powershell, cmd和cmder 
+2.  针对Windows的其他命令行工具，如：Powershell, cmd和cmder 
 
  
 
- 
+![](images/edit-env.png)
 
  
 
-修复后的效果 
+##修复后的效果 
 
  
 
 Git Bash 
 
- 
+![](images/git-bash.png)
 
 Cmd 
 
- 
+![](images/cmd.png)
 
 cmder 
 
- 
+![](images/cmder.png)
 
 Powershell 
 
- 
+![](images/powershell.png)

@@ -1,1 +1,1 @@
-# 常见问题 #4 解决Git在Windows上的中文乱码问题
+# 解决Git在Windows上的中文乱码问题

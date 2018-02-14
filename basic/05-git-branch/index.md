@@ -74,7 +74,7 @@
 这表示我们当前处于my-new-branch-2这条分支上，后面的origin是git远程存储库的一个标识，表示当前我们跟踪的是origin这个别名的远程存储库。 
 
  
-
+![](images/branch-view.png)
  
 
 *注：关于远程存储库我们在后面进阶篇会专门进行介绍，这里你只要知道这就是你克隆代码的那个存储库就够了。 *
@@ -88,7 +88,7 @@
 \>\>\> code .  
 
  
-
+![](images/code.png)
  
 
 以上我们对2个文件进行了变更，a.txt是一个已经存在的文件，b.txt是我们刚刚新建的文件。以上我们保存文件并关闭vscode以后，可以通过以下命令查看当前工作目录中的变更 
@@ -98,7 +98,7 @@
 \>\>\> git status  
 
  
-
+![](images/git-status.png)
  
 
 以上输出的内容中有2部分内容需要理解清楚 
@@ -126,7 +126,7 @@ git根本不知道你做了什么，它只知道这里有个文件还没有被gi
 \>\>\> git status 
 
  
-
+![](images/git-add.png)
  
 
 你也可以使用文件名或者通配符替换--all参数，只添加那些自己认为需要暂存的文件。如果暂存错误，以下命令取消暂存。 
@@ -144,7 +144,7 @@ git根本不知道你做了什么，它只知道这里有个文件还没有被gi
 \>\>\> git commit -m "my first git commit" 
 
  
-
+![](images/git-commit.png)
  
 
 git commit
@@ -164,7 +164,7 @@ git commit
 \>\>\> git checkout master 
 
  
-
+![](images/checkout-master.png)
  
 
 注意当我完成切换的是时候，我们之前创建的b.txt从vscode中消失了，同时a.txt里面之前修改的内容也不见了。如果要找回改动，只要再切换回到刚才的分支即可。 
@@ -182,7 +182,7 @@ git commit
 \>\>\> git push origin my-new-branch-2 
 
  
-
+![](images/git-push.png)
  
 
 完成操作后，你的本地分支就被推送到中心存储库上了，这时其他开发人员就可以通过以下命令获取你的分支代码。 
@@ -203,13 +203,13 @@ git commit
 leixu/ 作为前缀，推送到服务器上以后就变成文件夹显示 
 
  
-
+![](images/branch-folder-view.png)
  
 
 你甚至可以设置多级文件夹，这样在团队比较大的时候管理起来就容易多了。 
 
  
-
+![](images/branch-folder-view01.png)
  
 
 ##为何一定要使用分支？ 

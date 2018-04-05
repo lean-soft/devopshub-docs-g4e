@@ -30,6 +30,7 @@
 * [了解Git存储库](basic/04-git-repo/index.md)
 * [创建分支保存代码](basic/05-git-branch/index.md)
 * [了解Git历史记录](basic/06-git-history/index.md)
+* 拉取请求 Pull Request 工作机制
 
 
 ## 2. 进阶篇
